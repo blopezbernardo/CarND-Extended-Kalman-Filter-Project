@@ -13,6 +13,7 @@ The code compiles without errors with cmake and make.
 
 The px, py, vx, vy output coordinates have an RMSE <= [.11, .11, 0.52, 0.52] when using the file: "obj_pose-laser-radar-synthetic-input.txt” which is the same data file the simulator uses for Dataset 1. The final obtained values are: [.09, .08, 0.45, 0.43]
 
+![input 1 results](plot1.png)
 
 ## Follows the Correct Algorithm
 
