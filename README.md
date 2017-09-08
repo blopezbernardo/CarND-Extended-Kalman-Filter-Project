@@ -19,10 +19,13 @@ The px, py, vx, vy output coordinates have an RMSE <= [.11, .11, 0.52, 0.52] whe
 
 The Sensor Fusion algorithm:
 
-•	Follows the general processing flow as taught in the lessons. 
+•	Follows the general processing flow as taught in the lessons.
+
 •	Uses the first measurements to initialize the state vectors and covariance matrices.
-•	First predicts then updates.	
-•	Sets up the appropriate matrices given the type of measurement and calls the correct measurement function for a given sensor type (radar or lidar)
+
+•	First predicts then updates.
+
+•	Sets up the appropriate matrices given the type of measurement and calls the correct measurement function for a given sensor type (radar or lidar).
 
 
 ## Code Efficiency
